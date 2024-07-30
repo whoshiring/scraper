@@ -3,7 +3,7 @@
 # and https://docs.zyte.com/web-scraping/tutorial/cloud.html
 
 #projects:
-#  default: NNNNNN
+  default: 763405
 stacks:
   default: scrapy:2.11-20231009
 requirements:
