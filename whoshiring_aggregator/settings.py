@@ -24,6 +24,9 @@ SPIDER_MIDDLEWARES = {
     "zyte_spider_templates.middlewares.AllowOffsiteMiddleware": 500,
     "zyte_spider_templates.middlewares.CrawlingLogsMiddleware": 1000,
 }
+ITEM_PIPELINES = {
+    "whoshiring_aggregator.pipelines.MongoPipeline": 300,
+}
 
 # scrapy-poet
 SCRAPY_POET_DISCOVER = [
@@ -43,6 +46,6 @@ DUD_ATTRIBUTES_PER_ITEM = {
         "sku",
         "color",
         "size",
-        "style"
+        "style",
     ],
 }
